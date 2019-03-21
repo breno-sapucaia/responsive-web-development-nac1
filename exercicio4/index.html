@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/fashion.css" />
+</head>
+<body>
+    <div id="cabecalho">
+        <h1>
+            Ficha Cadastral
+        </h1>
+    </div>
+    <div id="corpo">
+        <div id="ficha">
+            <fieldset>
+                <legend>
+                    Dados Pessoais:
+                </legend>
+                <form action="#" method="POST">
+                    <div class="posicaoL"id="dNome">
+                        <label>Nome:<br>
+                             <input type="text" id="nome" class="format-grande" name="nome">
+                        </label>
+                    </div>
+                    <div class="posicaoL"id="dRG">
+                        <label>RG:<br/>
+                            <input type="text" id="rg" class="format-pequeno" name="rg">
+                        </label>
+                    </div>
+                    <div class="posicaoL"id="dCPF">
+                        <label>CPF:<br/>
+                            <input type="text" id="CPF" class="format-pequeno" name="rg">
+                        </label>
+                    </div>
+                    <div class="posicaoL"id="dEndereco">
+                        <label>Endereco:<br>
+                             <input type="text" id="endereco" class="format-grande" name="endereco">
+                        </label>
+                    </div>
+                    <div class="posicaoL">
+                        <label>Gênero<br/>
+                            <select class="format-pequeno">
+                                <option value="f">feminino</option>
+                                <option value="m">masculino</option>
+                                <option value="x">outro</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="posicaoL"id="dDataNasc">
+                        <label>Data de Nascimento:<br/>
+                            <input type="date" id="nasc" class="format-pequeno" name="nasc">
+                        </label>
+                    </div>
+                    <div class="posicaoL" id="Situação Civil">
+                        <label>Situação Civil:<br/></label>
+                            <label for="Solteiro">
+                                Soltaira(o)
+                            </label>
+                            <input type="radio" value="Solt" name="civil"> 
+                            <label class="labelpadding" for="casado">
+                                Casado(a)
+                            </label>
+                            <input type="radio" value="Casado"name="civil"> 
+                            <label class="labelpadding" for="Viuva">
+                                Viúva(o)
+                            </label>
+                            <input type="radio" value="Viuvo"name="civil">
+                    </div>
+                </br>
+                    <div id="btnSubmit" class="posicaoB">
+                        <input id="btnSubmit-btn"type="submit" value="Cadastrar"> 
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+
+</body>
+</html>

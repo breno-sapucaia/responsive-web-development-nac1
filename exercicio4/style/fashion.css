@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+/* CABECALHO */
+#cabecalho{
+    width:0 auto;
+    height:60px;
+}
+#cabecalho h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkgray;
+    text-align:center;
+    padding:10px;
+}
+/* FIM CABECALHO */
+/* CLASSES*/
+.format-grande{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#ddd;
+    border-color:#333;
+    border:1px solid;
+    width:500px;
+    font-size:15px;
+    height:20px;
+}
+.format-pequeno{
+    background-color:#ddd;
+    border-color:#333;
+    border:1px solid;
+    width:240px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:20px;
+    font-size:15px;
+}
+.posicaoL{
+    padding:10px;
+    float:left;
+}
+.labelpadding{
+    padding-left:15px;
+}
+.posicaoB{
+    clear:both;
+    text-align:center;
+}
+
+
+
+/* FIM CLASSES*/
+/* CORPO */
+#ficha{
+    margin:0 auto;
+    width:45%;
+    height:500px;
+}
+#ficha legend{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:10px;
+}
+#ficha fieldset{
+    border-color:rgb(192, 192, 192);
+}
+label{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#btnSubmit-btn{
+    padding:10px;
+    margin:0 0 10px 0;
+}
